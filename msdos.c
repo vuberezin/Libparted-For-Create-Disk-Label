@@ -6,6 +6,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
+/* ripped from dos.c */
+
 /* Read N sectors, starting with sector SECTOR_NUM (which has length
    DEV->sector_size) into malloc'd storage.  If the read fails, free
    the memory and return zero without modifying *BUF.  Otherwise, set
